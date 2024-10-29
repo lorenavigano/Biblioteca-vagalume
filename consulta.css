@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(227, 235, 235);
+}
+
+fieldset {
+    color: rgb(64, 82, 83);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 10%; /* Ajuste de margens */
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    margin: 20px 0; /* Espaço acima e abaixo da tabela */
+}
+
+/* Estilo para os cabeçalhos da tabela */
+th {
+    background-color: #7c209b; /* Cor de fundo dos cabeçalhos */
+    color: white; /* Cor do texto dos cabeçalhos */
+    padding: 10px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto */
+}
+
+/* Estilo para as células da tabela */
+td {
+    border: 1px solid #ddd; /* Borda das células */
+    padding: 8px; /* Espaçamento interno */
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h4 {
+    margin: 22px 0;
+    color:#89317c;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#89317c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+a{
+    text-decoration: none;
+    color: #89317c;
+}
+header{
+    background-color:#ffffff;
+}
+
+fieldset{
+    border:none;
+    background-color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+form{
+    border:none;
+    background-color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+ button {
+    margin-top: 10px;
+    padding: 7px;
+    background:#89317c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background:#89317c;
+    width: 100%;
+    color: #f9f9f9;
+}
+
+.tamanho{
+    text-align: left;
+}
+.tamanho2{
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+

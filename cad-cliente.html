@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Biblioteca Vagalume</title>
+</head>
+
+<body>  
+    <nav>
+        <ul>
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="sobre-o-site.html"><b>Sobre</b></a></li>
+           
+        </ul>
+    </nav>
+
+    <center>
+        <h2><a href="index.html"> Cadastro dos Clientes</a></h2>
+    </center>
+    <form action="cad-cliente.php" method="POST">
+        <br>
+        <div class="tamanho2">
+        <p>Dados do Cliente</p>
+
+
+        <label>CPF:</label>
+        <input type="number" name="CPF_cliente" required>
+        <br>
+        <br>
+
+        <label>Nome Cliente:</label>
+        <input type="text" name="nomecliente"required>
+        <br>
+        <br>
+
+
+        <label>E-mail:</label>
+        <input type="text" name="email"required>
+        <br>
+        <br>
+
+        <label>Telefone:</label>
+        <input type="number" name="telefone" required>
+        <br>
+        <br>
+
+        <label>Data de Nascimento:</label>
+        <input type="date" name="datadenascimento" required>
+        <br>
+        <br>
+
+        <label>Endereço:</label>
+        <input type="text" name="Endereco" required>
+        <br>
+        <br>
+    </div>
+    <center><button type="submit>">Enviar resposta</button required></center>
+    <br>
+    </form>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+<footer> Todos os direitos reservados © 2024. Biblioteca Vagalume.</footer>
+</body>
+
+</html>

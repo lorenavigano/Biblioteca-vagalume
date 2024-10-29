@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Cadastro Livros</title>
+</head>
+<body> 
+    <nav>
+        <ul>
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="sobre-o-site.html"><b>Sobre</b></a></li>
+           
+        </ul>
+    </nav>
+
+    <center><h2><a href="index.html"> Cadastro dos livros</a></h2></center>
+    <br>
+    
+    <form action="cadastr-livros.php" method="POST">
+        <br>
+    <div class="tamanho2">
+        <p>Dados do livro:</p>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="isbn">ISBN:</label>
+        <input type="text" id="isbn" name="ISBN" required><br><br>
+
+        <label for="nome">Quantidade de estoque:</label>
+        <input type="number" id="nome" name="qtd_estoque" required><br><br>
+
+        <label for="editora">Editora:</label>
+        <input type="text" id="editora" name="editora" required><br><br>
+
+        <label for="nome">Nome do autor:</label>
+        <input type="text" id="autor" name="autor" required><br><br>
+
+        <label for="classificacao">Classificação:</label>
+        <input type="number" id="classificacao" name="classificacao" required><br><br>
+
+        <label for="ano">Ano de publicação:</label>
+        <input type="date" id="nascimento" name="anodepublicacao" required><br><br>
+
+        <label for="idioma">Idioma: </label>
+        <select name="idioma">
+                <option value="pt-br">Português</option>
+                <option value="en">Inglês</option>
+                <option value="esp">Espanhol</option>
+
+        </select>
+        <br><br>
+        <label for="numero">Número de páginas:</label> 
+        <input type="number" id="num" name="numerodepaginas" required><br><br>
+
+        <label for="genero">Gênero: </label>
+        <select name="genero">
+                <option value="drama">Drama</option>
+                <option value="romance">Romance</option>
+                <option value="comedia">Comédia</option>
+                <option value="terror">Terror</option>
+                <option value="psicologico">Psicológico</option>
+        </select>
+
+        <label for="ano">Disponibilidade:</label>
+        <input type="text" id="disponibilidade" name="disponibilidade" required><br><br>
+
+    </div>
+    </fieldset>
+    <br>
+    <center><button type="submit>">Enviar resposta</button required></center>
+        <br>
+    </form>
+    <br>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    
+    <br>
+    <footer> Todos os direitos reservados © 2024. Biblioteca Vagalume.</footer>
+</body>
+</html>
